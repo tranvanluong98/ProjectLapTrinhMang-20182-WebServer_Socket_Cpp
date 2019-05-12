@@ -1,0 +1,10 @@
+﻿  WebServer.cpp
+  TcpListener.cpp
+c:\users\tran luong\documents\visual studio 2015\projects\webserverperfect\webserverperfect\tcplistener.cpp(144): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  Compiling...
+  MultiClientChat.cpp
+  Generating Code...
+  webServerPerfect.vcxproj -> c:\users\tran luong\documents\visual studio 2015\Projects\webServerPerfect\Debug\webServerPerfect.exe
+  webServerPerfect.vcxproj -> c:\users\tran luong\documents\visual studio 2015\Projects\webServerPerfect\Debug\webServerPerfect.pdb (Full PDB)
