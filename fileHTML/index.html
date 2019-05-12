@@ -169,8 +169,8 @@
     } */
   </style>
   <body>
-    <h1>WELCOME TO MY TEAM</h1>
-
+   <!--  <h1>WELCOME TO MY TEAM</h1>
+	<form action="/home.html/" method="GET">
     <div class="text-input">
       <input
         type="text"
@@ -190,8 +190,9 @@
       />
       <label for="input1">Mật Khẩu</label>
     </div>
-
-    <a href="/home.html">
+	<input type="submit" class="btn draw-border" value="Đăng nhập">  
+</form> -->
+<!--   <a href="/home.html" 
       <button class="btn draw-border">Đăng Nhập</button>
     </a>
 
@@ -199,6 +200,17 @@
       <button class="btn draw-border">
         Đăng Ký
       </button>
-    </a>
+    </a> -->
+     <form method="POST" action="/home.html" >
+     	 
+     	 	<p>Username</p>
+    	<input type="text" name="username"/>
+    	<br>
+    		<p>Password</p>
+    	<input type="password" name="password">
+    	<br>
+    	<input type="submit" value="Submit"/>
+<br>
+    </form>
   </body>
 </html>

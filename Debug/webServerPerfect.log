@@ -1,3 +1,3 @@
 ﻿  WebServer.cpp
-  webServerPerfect.vcxproj -> C:\Users\Tran Luong\documents\visual studio 2015\Projects\webServerPerfect\Debug\webServerPerfect.exe
-  webServerPerfect.vcxproj -> C:\Users\Tran Luong\documents\visual studio 2015\Projects\webServerPerfect\Debug\webServerPerfect.pdb (Full PDB)
+e:\documents\201802 6th\lap trinh mang\btvn\projectlaptrinhmang-20182-webserver_socket_cpp\webserver.cpp(42): warning C4129: 'l': unrecognized character escape sequence
+  webServerPerfect.vcxproj -> E:\Documents\201802 6th\Lap trinh mang\BTVN\ProjectLapTrinhMang-20182-WebServer_Socket_Cpp\Debug\webServerPerfect.exe
