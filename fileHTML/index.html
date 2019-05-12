@@ -4,7 +4,8 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    <!-- <link rel="shortcut icon" type="image/jpg" href="/favicon.png" /> -->
+    <link rel="shortcut icon" type="image/x-icon" href="../khabanh.jpg" />
     <title>Web Server Nhóm 6</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
@@ -52,7 +53,7 @@
       transition-delay: 0.2s;
     }
     .text-input input[type='text']:focus + label {
-      transform: translateY(-120%) translateX(0%);
+      transform: translateY(0%) translateX(-120%);
       border-radius: 3px;
       transition: all 0.1s ease-out;
     }
@@ -91,7 +92,7 @@
       transition-delay: 0.2s;
     }
     .text-input input[type='password']:focus + label {
-      transform: translateY(100%) translateX(0%);
+      transform: translateY(0%) translateX(-120%);
       border-radius: 3px;
       transition: all 0.1s ease-out;
     }
@@ -169,11 +170,13 @@
   </style>
   <body>
     <h1>WELCOME TO MY TEAM</h1>
+
     <div class="text-input">
       <input
         type="text"
         id="input1"
         placeholder="Mời bạn nhập username vào đây..."
+        required
       />
       <label for="input1">Username</label>
       <br />
@@ -183,11 +186,19 @@
         type="password"
         id="input1"
         placeholder="Mời bạn nhập mật khẩu vào đây..."
+        required
       />
       <label for="input1">Mật Khẩu</label>
     </div>
-    <button class="btn draw-border" onclick="window.location.href='/home.html'">
-      Đăng Nhập
-    </button>
+
+    <a href="/home.html">
+      <button class="btn draw-border">Đăng Nhập</button>
+    </a>
+
+    <a href="/signup.html">
+      <button class="btn draw-border">
+        Đăng Ký
+      </button>
+    </a>
   </body>
 </html>
