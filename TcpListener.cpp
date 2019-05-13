@@ -38,6 +38,7 @@ int TcpListener::init()
 	{
 		return WSAGetLastError();
 	}
+	printf("Server is listening at port 6969");
 
 	// Create the master file descriptor set and zero it
 	FD_ZERO(&m_master);
